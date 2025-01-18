@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import ApoiSimulation from './6th sem/hookuseeffect1'
+// import ApoiSimulation from './6th sem/hookuseeffect1'
+import ApoiSimulation1 from './6th sem/countdownuseeffect'
 //  import StateABC from './6th sem/segment1.jsx'
 // import ABC from './6th sem/index.jsx'
 // import App from './6th sem/login.jsx'
@@ -14,7 +15,7 @@ import ApoiSimulation from './6th sem/hookuseeffect1'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ApoiSimulation/>
+    <ApoiSimulation1/>
 </StrictMode>,
 
 )
